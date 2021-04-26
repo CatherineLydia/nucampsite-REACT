@@ -47,19 +47,11 @@ class CommentForm extends Component{
     constructor(props) {
         super(props);
 
-            this.state = {
-            isNavOpen: false,
+        this.state = {
+                
             isModalOpen: false,
             
-            rating:'1',
-            author: '',
-            text: '',
-            
-            touched: {
-                    author: false
-            }
-
-            };
+        }
         
         this.toggleModal = this.toggleModal.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
